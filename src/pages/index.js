@@ -1,10 +1,6 @@
 import React from "react"
 import SEO from "../components/utility/SEO"
-import Typography from "@material-ui/core/Typography";
-import MuiLink from "../components/utility/MuiLink";
 import Box from "@material-ui/core/Box";
-import PersonComponent from "../components/PersonComponent";
-import TestIcon from '../images/gatsby-icon.png'
 import ConventionImage from '../images/tech-convention.jpg'
 import {makeStyles} from "@material-ui/core/styles";
 

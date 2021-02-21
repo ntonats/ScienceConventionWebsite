@@ -6,7 +6,8 @@ import Brightness1Icon from '@material-ui/icons/Brightness1';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    maxWidth: theme.spacing(38)
+    maxWidth: theme.spacing(38),
+    marginRight: 16
   },
   image: {
     height: '100%',
