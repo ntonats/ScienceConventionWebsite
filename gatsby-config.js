@@ -3,15 +3,13 @@ module.exports = {
   siteMetadata: {
     title: 'Gatsby Material UI Website Starter',
     description: 'A website starter with Material UI for Gatsby.',
-    author: `Spyros Sellas`,
+    author: `Alexandros Kostakis`,
     image: `src/images/gatsby-icon.png`,
-    // siteUrl: 'https://www.example.com',
   },
   plugins: [
     'gatsby-plugin-top-layout',
     {
       resolve: 'gatsby-plugin-material-ui',
-      // If you want to use styled components you should change the injection order.
       options: {
         // stylesProvider: {
         //   injectFirst: true,
