@@ -3,7 +3,6 @@ import Box from "@material-ui/core/Box";
 import {makeStyles} from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Brightness1Icon from '@material-ui/icons/Brightness1';
-import Img from 'gatsby-image'
 
 const useStyles = makeStyles(theme => ({
   root: {

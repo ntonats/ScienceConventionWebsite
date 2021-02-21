@@ -15,22 +15,19 @@ const useStyles = makeStyles(theme => ({
     "&:hover": {
       transform: 'scale(1.5)'
     },
-}
+  }
 }));
 
-const IndexPage = () => {
+const About = () => {
   const classes = useStyles();
   return (
     <>
-      <SEO title="Home"/>
       <Box style={{
-        overflow: 'hidden',
-        margin: '0px auto'
       }}>
-        <img src={ConventionImage} alt='' className={classes.image}/>
+        hello
       </Box>
     </>
   )
 }
 
-export default IndexPage
+export default About
