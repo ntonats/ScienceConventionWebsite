@@ -7,7 +7,7 @@ import Brightness1Icon from '@material-ui/icons/Brightness1';
 const useStyles = makeStyles(theme => ({
   root: {
     maxWidth: theme.spacing(38),
-    marginRight: 16
+    marginBottom: 16
   },
   image: {
     height: '100%',
@@ -16,11 +16,12 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const PersonComponent = ({image, text, ...rest}) => {
+const PersonComponent = ({name, image, text, ...rest}) => {
   const classes = useStyles();
 
   return (
     <Box className={classes.root} {...rest}>
+      <Typography variant='h4'>{name}</Typography>
       <img src={image} alt='' className={classes.image}/>
       {text && <Typography variant={"body2"} style={{paddingLeft: 8}}>
         <Brightness1Icon style={{fontSize: 12, marginRight: 8}} color='primary'/>

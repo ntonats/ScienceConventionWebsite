@@ -1,35 +1,13 @@
 import React from "react"
 import Box from "@material-ui/core/Box";
-import {makeStyles} from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
-
-const useStyles = makeStyles(theme => ({}));
 
 const conventionData = [
-  {
-    title: "ISIVC'2020 - International Symposium on Signal, Image, Video and Communications",
-    url: 'https://www.imt-atlantique.fr/en/the-school/events/conferences/isivc-2020-international-symposium-signal-image-video-and-communications'
-  },
-  {
-    title: "ISIVC'2020 - International Symposium on Signal, Image, Video and Communications",
-    url: 'https://www.imt-atlantique.fr/en/the-school/events/conferences/isivc-2020-international-symposium-signal-image-video-and-communications'
-  },
-  {
-    title: "ISIVC'2020 - International Symposium on Signal, Image, Video and Communications",
-    url: 'https://www.imt-atlantique.fr/en/the-school/events/conferences/isivc-2020-international-symposium-signal-image-video-and-communications'
-  },
-  {
-    title: "ISIVC'2020 - International Symposium on Signal, Image, Video and Communications",
-    url: 'https://www.imt-atlantique.fr/en/the-school/events/conferences/isivc-2020-international-symposium-signal-image-video-and-communications'
-  },
-  {
-    title: "ISIVC'2020 - International Symposium on Signal, Image, Video and Communications",
-    url: 'https://www.imt-atlantique.fr/en/the-school/events/conferences/isivc-2020-international-symposium-signal-image-video-and-communications'
-  },
+  'https://group.acm.org/conferences/group20/',
+  'https://invisibletalks.com/conference-2020-std/',
+  'http://uxcampdc.com/index.html'
 ]
 
 const Location = () => {
-  const classes = useStyles();
   return (
     <>
       <Box display='flex' justifyContent='center'>
@@ -42,7 +20,7 @@ const Location = () => {
         {conventionData.map((item, index) => {
           return (
             <Box key={index}>
-              <a href={item.url} target="_blank">{item.title}</a>
+              <a href={item} target="_blank">{item}</a>
             </Box>
           )
         })}

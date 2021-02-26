@@ -1,7 +1,7 @@
 import React from "react"
 import SEO from "../components/utility/SEO"
 import Box from "@material-ui/core/Box";
-import ConventionImage from '../images/tech-convention.jpg'
+import ConventionImage from '../images/convention-image.jpg'
 import {makeStyles} from "@material-ui/core/styles";
 
 const useStyles = makeStyles(theme => ({
