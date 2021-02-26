@@ -102,52 +102,11 @@ const Form = () => {
   const handleRegister = (e) => {
     console.log('formState', formState)
     e.preventDefault()
-    // fetch("/", {
-    //   method: "POST",
-    //   headers: {"Content-Type": "application/x-www-form-urlencoded"},
-    //   body: encode({"form-name": "contact", ...formState})
-    // })
-    //   .then(() => {
-    //     setFormState({
-    //       name: '',
-    //       surname: '',
-    //       email: '',
-    //       phone: '',
-    //       username: '',
-    //       password: '',
-    //       confirmPassword: '',
-    //       gender: '',
-    //       newsletter: false
-    //     })
-    //   })
-    //   .catch(() => alert('Κάτι πήγε λάθος. Παρακαλώ δοκιμάστε ξανά.'));
-    // e.preventDefault()
   }
 
   const handleLogin = (e) => {
-    console.log('formState', formState)
     Cookies.set('JWT', 'value', {expires: 7})
     e.preventDefault()
-    // fetch("/", {
-    //   method: "POST",
-    //   headers: {"Content-Type": "application/x-www-form-urlencoded"},
-    //   body: encode({"form-name": "contact", ...formState})
-    // })
-    //   .then(() => {
-    //     setFormState({
-    //       name: '',
-    //       surname: '',
-    //       email: '',
-    //       phone: '',
-    //       username: '',
-    //       password: '',
-    //       confirmPassword: '',
-    //       gender: '',
-    //       newsletter: false
-    //     })
-    //   })
-    //   .catch(() => alert('Κάτι πήγε λάθος. Παρακαλώ δοκιμάστε ξανά.'));
-    // e.preventDefault()
   }
 
   const handlePasswordError = () => {
