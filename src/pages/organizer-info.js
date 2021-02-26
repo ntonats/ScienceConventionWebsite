@@ -2,7 +2,6 @@ import React from "react"
 import Box from "@material-ui/core/Box";
 import {makeStyles} from "@material-ui/core/styles";
 import PersonComponent from "../components/PersonComponent";
-import Ypo from '../images/ypo.jpg'
 import Person1 from '../images/person-1.jpg'
 import Person2 from '../images/person-2.jpg'
 import Person3 from '../images/person-3.jpg'

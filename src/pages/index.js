@@ -1,5 +1,4 @@
 import React from "react"
-import SEO from "../components/utility/SEO"
 import Box from "@material-ui/core/Box";
 import ConventionImage from '../images/convention-image.jpg'
 import {makeStyles} from "@material-ui/core/styles";
@@ -18,7 +17,6 @@ const IndexPage = () => {
   const classes = useStyles();
   return (
     <>
-      <SEO title="Home"/>
       <Box style={{
         overflow: 'hidden',
         margin: '0px auto'
